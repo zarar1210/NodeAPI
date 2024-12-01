@@ -7,7 +7,7 @@ app.get("/user", (req, res) => {
   });
 });
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8080;
 
 app.listen(port, function () {
   console.log(`I am running on ${port} `);
