@@ -9,6 +9,7 @@ app.get("/", (req, res) => {
 
 const port = 5003;
 
-app.listen(port, function () {
-  console.log(`I am running on ${port} `);
+app.listen(port || 3000, '0.0.0.0', () => {
+  console.log('Server is running');
 });
+
