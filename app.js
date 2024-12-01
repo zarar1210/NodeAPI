@@ -9,5 +9,5 @@ app.get("/user", (req, res) => {
 
 const port = process.env.port || 3000;
 app.listen(port, function () {
-    console.log("Server is running");
+  console.log("I am running do not worry");
 });
