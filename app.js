@@ -8,7 +8,8 @@ app.get("/", (req, res) => {
 });
 
 const port = 5003;
+const HOST= '0.0.0.0'
 
-app.listen(port, function () {
+app.listen(port,HOST, function () {
   console.log(`I am running on ${port} `);
 });
