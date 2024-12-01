@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 const port = 5003;
 
-app.listen(port || 3000, '0.0.0.0', () => {
+app.listen(port, '0.0.0.0', () => {
   console.log('Server is running');
 });
 
