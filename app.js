@@ -4,7 +4,7 @@ const app = express();
 // Corrected path: added leading slash ("/")
 app.get("/api/get", (req, res) => {
   res.json({
-    message: "This functionality implemented via CICD pipeline from GitHub",
+    message: "This functionality implemented via CICD pipeline from GitHub.",
   });
 });
 
