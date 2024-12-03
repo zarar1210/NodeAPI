@@ -19,7 +19,7 @@ jobs:
         
   deploy:
     needs: build
-    runs-on: [zarar1210-NodeAPI]
+    runs-on: [self-hosted]
     steps:
       - name: Pull image from docker hub
         run: docker pull zararali/nodeapi:latest
